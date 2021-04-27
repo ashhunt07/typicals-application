@@ -1,0 +1,11 @@
+{
+  "name": "Clear Design Typicals App",
+  "short_name": "Typicals App",
+  "icons": [
+
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "start_url": "/",
+  "display": "standalone"
+}
