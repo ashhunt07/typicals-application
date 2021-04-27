@@ -1,1 +1,2 @@
-# typicals-application
+# typicals_app
+# typicals_app
