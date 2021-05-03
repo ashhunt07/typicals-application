@@ -1,5 +1,6 @@
 <style>
   @import './assets/styles/main.css';
+  
 </style>
 
 <template>
@@ -14,9 +15,10 @@
 import { Options, Vue } from 'vue-class-component';
 import Header from './components/Header';
 
+
 @Options({
   components: {
-    Header
+    Header,
   },
 })
 export default class App extends Vue {}
