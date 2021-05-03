@@ -21,16 +21,3 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
-
-
-
-
-node_modules
-.DS_Store
-dist
-dist-ssr
-*.local
-
-# local env files
-.env.local
-.env.*.local
