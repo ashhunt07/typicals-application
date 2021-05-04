@@ -1,0 +1,19 @@
+/* .toggle-icon{
+    font-size: 5em;
+}
+
+.tiny-text{
+    font-size: 9px;
+} */
+
+
+#sidebar {
+    left: initial;
+    right: -100%;
+    transition: right 0.2 ease-in-out;
+}
+
+#sidebar.collapsing, #sidebar.show {
+    left: initial;
+    right: 0;
+}

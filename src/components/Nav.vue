@@ -1,5 +1,25 @@
 <template> 
 
+<!-- <div class="container-fluid h-100">
+    <div class="row h-100">
+        <div class="col p-0 pt-3">
+            <a href class="m-3 navbar-light" data-target="#sidebar" data-toggle="collapse">
+                <span class="navbar-toggler-icon"></span>
+            </a>
+
+        </div>
+        <div class="col-2 collapse fade bg-dark fixed-top p-3 h-100" id="sidebar">
+            <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link text-white" href="#">Overview</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Analytics</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Export</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Link</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="#">Link</a></li>
+            </ul>
+        </div>
+    </div>
+</div> -->
+
 
 <nav class="navbar fixed-top navbar-dark bg-primary">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -12,7 +32,10 @@
         </li>
         <li>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
-              <span class="navbar-toggler-icon"></span>
+              <span><i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+              <br>
+              <h6 class="tiny-text">MORE</h6>
+              </span>
           </button>
         </li>
       </ul>
@@ -36,6 +59,9 @@
         </ul>
     </div>
 </nav>
+
+
+
 
 
 </template>
