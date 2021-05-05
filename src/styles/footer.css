@@ -1,0 +1,19 @@
+footer{
+    display:flex;
+    align-items: center;
+    background-color:#fff;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    box-shadow: 0 -2px 12px 0 rgba(0, 0, 0, 0.19);
+}
+
+footer .nav {
+    justify-content: space-evenly;
+    padding: .5em 0 !important;
+}
+
+footer .nav-link {
+    color:#7c878e;
+}
+

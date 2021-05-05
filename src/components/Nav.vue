@@ -1,34 +1,11 @@
 <template> 
 
-<!-- <div class="container-fluid h-100">
-    <div class="row h-100">
-        <div class="col p-0 pt-3">
-            <a href class="m-3 navbar-light" data-target="#sidebar" data-toggle="collapse">
-                <span class="navbar-toggler-icon"></span>
-            </a>
-
-        </div>
-        <div class="col-2 collapse fade bg-dark fixed-top p-3 h-100" id="sidebar">
-            <ul class="nav flex-column">
-                <li class="nav-item"><a class="nav-link text-white" href="#">Overview</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="#">Analytics</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="#">Export</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="#">Link</a></li>
-                <li class="nav-item"><a class="nav-link text-white" href="#">Link</a></li>
-            </ul>
-        </div>
-    </div>
-</div> -->
-
-
-<nav class="navbar fixed-top navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <ul class="nav justify-content-end">
+    <ul class="nav">
         <li class="nav-item">
-          <a class="nav-link active"  style="color:#fff;" aria-current="page" href="#">Home</a>
+          <a class="nav-link" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  style="color:#fff;" href="#">Features</a>
+          <a class="nav-link" href="#">Features</a>
         </li>
         <li>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
@@ -58,7 +35,7 @@
             </li>
         </ul>
     </div>
-</nav>
+
 
 
 

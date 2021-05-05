@@ -1,6 +1,12 @@
 <template> 
     <header>
-        <Nav />
+      <nav class="navbar">
+       <a class="navbar-brand" href="#">
+        <img class="main-logo" src="/img/Clear_Design_mark_WHT.png" />
+    </a>
+
+        <Nav v-if="!mobileView"/>
+        </nav>
     </header>
 </template>
 
@@ -12,6 +18,19 @@
           components: {
             Nav
           },
+          data: () => {
+    return{
+      mobileView: true
+    };
+  },
+  methods: {
+    handleView() {
+      this.mobileView = window.innerWidth <= 700;
+    }
+  },
+  created() {
+    this.handleView();
+  }
     }
 </script>
 
