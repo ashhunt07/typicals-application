@@ -1,7 +1,7 @@
 <template>
 
   <Header/>
-  <Slider />
+  <Carousel />
   <FooterM v-if="mobileView"/>
 
 </template>
@@ -9,12 +9,12 @@
 <script>
 import { Options, Vue } from 'vue-class-component';
 import Header from './components/Header';
-import Slider from './components/Slider';
+import Carousel from './components/Carousel';
 import FooterM from './components/FooterM';
 @Options({
   components: {
     Header,
-    Slider,
+    Carousel,
     FooterM
   },
   data: () => {

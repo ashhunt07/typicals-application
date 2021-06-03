@@ -2,7 +2,8 @@ header{
     display: flex;
     background-color: #009ca6;
     color:#fff;
-    position: fixed;
+    position: sticky;
+    clear: both;
     top:0;
     margin-bottom: 20px;
     padding: 0 30px;
